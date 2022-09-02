@@ -16,7 +16,6 @@
     margin: 0 auto;
     margin-top: 2em;
     background-color: white;
-    border: 1px solid black;
  }
 
  .top {
@@ -25,8 +24,9 @@
 
  h1.title {
     text-align: center;
-    margin-bottom: 1.6em;
-    font-size: 2rem;
+    margin-bottom: 1em;
+    font-size: 3rem;
+    color: #e53170;
  }
  p {
     text-align: center;
@@ -44,24 +44,38 @@
  .profile {
     float: left;
     width: calc(100% / 3 - 1em - 1em);
-    height: 80px;
+    height: 120px;
     background-color: rgb(27, 27, 43);
-    border: 1px solid black;
     margin: 1em;
  }
 
  .profile-img {
-   width: 80px;
-   height: 80px;
+   width: 120px;
+   height: 120px;
    background-color: blueviolet;
    vertical-align: middle;
    display: inline-block;
  }
 
  .name {
-   width: 200px;
-   height: 80px;
    vertical-align: middle;
    display: inline-block;
    color: white;
+   padding-left: .8em;
+ }
+
+.name h2 {
+   font-size: 1.4rem;
+   font-weight: 600;
+   margin-bottom: .3em;
+ }
+
+ .name h3,h4 {
+   font-size: 1rem;
+   font-weight: 400;
+   margin-bottom: .3em;
+ }
+
+ h4 {
+   color: #1ea2e0;
  }
