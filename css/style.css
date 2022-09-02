@@ -1,0 +1,67 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ html {
+    font-family: 'Fredoka', sans-serif;
+ }
+
+ /* MAIN */
+
+ .container {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2em;
+    background-color: white;
+    border: 1px solid black;
+ }
+
+ .top {
+   padding-top: 1em;
+ }
+
+ h1.title {
+    text-align: center;
+    margin-bottom: 1.6em;
+    font-size: 2rem;
+ }
+ p {
+    text-align: center;
+ }
+
+ .team-section {
+    margin-top: 2em;
+}
+.clearfix::after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+ .profile {
+    float: left;
+    width: calc(100% / 3 - 1em - 1em);
+    height: 80px;
+    background-color: rgb(27, 27, 43);
+    border: 1px solid black;
+    margin: 1em;
+ }
+
+ .profile-img {
+   width: 80px;
+   height: 80px;
+   background-color: blueviolet;
+   vertical-align: middle;
+   display: inline-block;
+ }
+
+ .name {
+   width: 200px;
+   height: 80px;
+   vertical-align: middle;
+   display: inline-block;
+   color: white;
+ }
